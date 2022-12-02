@@ -13,7 +13,7 @@ setObject(newPlace);
          <h1 className="header"> Top { data0.length } beautiful Place in the word</h1>
             <Button filterPlace={filterPlace}/>
             { object.map((element=>
-    {const{id,name,place,image,term}=element;
+    {const{id,name,place,image}=element;
  return (
     <div key={id} className="container-about">
         <div className="place">
